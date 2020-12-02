@@ -1,5 +1,5 @@
 import React from 'react'
-import MyHistoryContainer from 'containers/MyHistoryContainer'
+import { MyHistoryContainer } from 'containers'
 
 const MyHistoryPage = () => {
   return <MyHistoryContainer />
