@@ -21,7 +21,7 @@ const CostAnalysisContainer = () => {
 
   return (
     <>
-      <Header title={'매도 비용 분석'} />
+      <Header title={'매도 비용 분석'} theme={'white'} />
       <CostAnalysis selected={selected} apartList={apartList} onClickApart={onClickApart} navMenus={navMenus} />
     </>
   )
